@@ -1,0 +1,3 @@
+adduser username --system --shell=/bin/false --no-create-home
+
+ssh YOUR_SERVER_IP -L 8888:localhost:32400
